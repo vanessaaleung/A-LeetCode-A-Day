@@ -2,7 +2,7 @@
   "name": "A Leetcode A Day",
   "version": "1.0",
   "description": "Start Coding Today!",
-  "permissions": ["activeTab", "declarativeContent", "storage"], //for the extension to use them.
+  "permissions": ["activeTab", "declarativeContent", "storage"], 
   "background": {
       "scripts": ["background.js"],
       "persistent": false
