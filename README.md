@@ -5,7 +5,7 @@ Chrome extension to pop up a random LeetCode top 100 questions.
 
 ## Installation
 ### Clone
-- Clone this repo to your local machine using
+- Clone this repo to your local machine using `https://github.com/vanessaaleung/A-LeetCode-A-Day.git`
 
 ### Setup
 - Open the Extension Management page by navigating to chrome://extensions.
