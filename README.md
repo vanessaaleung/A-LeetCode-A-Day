@@ -2,6 +2,7 @@
 Chrome extension to pop up a random LeetCode top 100 questions.
 
 ## Example
+![image](images/readme_example.png)
 
 ## Installation
 ### Clone
