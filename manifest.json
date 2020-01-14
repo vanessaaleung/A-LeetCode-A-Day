@@ -1,0 +1,28 @@
+{
+  "name": "A Leetcode A Day",
+  "version": "1.0",
+  "description": "Start Coding Today!",
+  "permissions": ["activeTab", "declarativeContent", "storage"], //for the extension to use them.
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+  "page_action": { //use a popup interface
+      "default_popup": "popup.html",
+      "default_icon": {  //Designation for toolbar icons
+        "16": "images/LeetCode_logo.png",
+        "32": "images/LeetCode_logo.png",
+        "48": "images/LeetCode_logo.png",
+        "128": "images/LeetCode_logo.png"
+      }
+    },
+  "icons": {  //display images on the extension management page
+      "16": "images/LeetCode_logo.png",
+      "32": "images/LeetCode_logo.png",
+      "48": "images/LeetCode_logo.png",
+      "128": "images/LeetCode_logo.png"
+    },
+  //"options_page": "options.html",
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2
+}
