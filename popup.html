@@ -23,18 +23,24 @@
 				display: table-cell;
 			}
 			.content .header {
-				display: inline-flex;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
 				flex: 1 1 0;
 				width: 100%;
 				height: 40px;
-				background-color: black;
+				background-color: #222;
 			}
-			.content .header .img {
+			.content .header img {
 				height: 100%;
-				width: 50%
+				width: 40px;
+				margin-right: 5px;
+				position: relative;
+				top: 2px;
+				left: -5px;
 			}
 			.content .header .name {
-				height: 100%;
 				display: table-cell;
 				text-align: center;
 				font-weight: bold;
@@ -48,6 +54,7 @@
 			.content .detail {
 				display: inline-flex;
 				flex: 1 1 0;
+				align-items: baseline;
 				margin-top: 10px;
 				width: 100%;
 				height: 40px;
@@ -62,7 +69,7 @@
 				vertical-align: middle;
 			}
 			.content .detail .btn {
-				height: 100%
+				height: 100%;
 				width: 50%;
 			}
 			.content .detail .btn #doit {
@@ -86,7 +93,7 @@
 	<body>    
     <div class = "content">
     	<div class = "header">
-    		<img src = "images/LeetCode_logo.png" style="width: 40px;">
+    		<img src = "images/LeetCode_logo.png">
     		<div class = "name">
     			<p>A <span class = "leetcode">LeetCode</span> A Day</p>
     		</div>
