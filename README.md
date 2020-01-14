@@ -10,12 +10,14 @@ Chrome extension to pop up a random LeetCode top 100 questions.
 
 ### Setup
 - Open the Extension Management page by navigating to chrome://extensions.
-- The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions.
-- Enable Developer Mode by clicking the toggle switch next to Developer mode.
-Click the LOAD UNPACKED button and select the extension directory.
+- The Extension Management page can also be opened by clicking on the Chrome menu, hovering over **More Tools** then selecting **Extensions**.
+- Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
+- Click the **LOAD UNPACKED** button and select the extension directory.
 
 
 ## Features
+- Click on the icon on the bar will pop up a random questions
+- Click on the Do It Now! button will open a window for that question
 
 ## License
 
