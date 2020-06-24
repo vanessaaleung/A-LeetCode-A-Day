@@ -1,8 +1,10 @@
 # A-LeetCode-A-Day
-Chrome extension that pops up a random LeetCode top 100 questions.
+Chrome extension that pops up a random LeetCode top 100 question.
 
-## Example
+## Features
 ![image](images/readme_example.png)
+1. Display a random top 100 question and its difficulty
+2. Link to the question
 
 ## Installation
 ### Clone
