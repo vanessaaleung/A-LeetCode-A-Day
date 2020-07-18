@@ -2,7 +2,7 @@
 Chrome extension that pops up a random LeetCode top 100 question.
 
 ## Features
-![image](images/readme_example.png)
+<img src="demo.gif" width="600px">
 1. Display a random top 100 question and its difficulty
 2. Link to the question
 
