@@ -1,4 +1,4 @@
-d3.csv("https://raw.githubusercontent.com/vanessaaleung/rawdata/master/leetcode.csv", function(d) {
+d3.csv("https://raw.githubusercontent.com/vanessaaleung/A-LeetCode-A-Day/master/leetcode.csv", function(d) {
   return {
   	no : +d.No,
     id : +d.ID,
@@ -10,7 +10,7 @@ d3.csv("https://raw.githubusercontent.com/vanessaaleung/rawdata/master/leetcode.
   var random = d3.randomInt(100)()
   var container = d3.select("div")
     .data(data.filter(function(d){ return d.no === random}))
-  
+
   var title = container.select(".title")
                 .append("p")
                 .text(function(d){return d.id + ". " + d.title})
